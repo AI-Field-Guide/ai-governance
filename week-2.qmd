@@ -1,0 +1,45 @@
+---
+title: "Week 2 · AI geopolitics"
+subtitle: "Who shapes AI governance, and what do they want?"
+---
+
+::: {.week-meta}
+<span>📅 Lecture: Wed 25 Nov 2026</span><span>💬 Discussion: Tue 1 Dec 2026</span><span>⏱ Core reading ~55 min</span>
+:::
+
+## Overview
+
+This week maps who shapes AI governance and how they relate to each other:
+
+- **Governments:** the US, China, and middle powers such as the UK (with its AI Security Institute) and the EU (with its AI Office and local AI safety initiatives)
+- **AI companies:** OpenAI, Anthropic, Chinese labs, Mistral AI
+- **Independent AI safety organisations:** such as SAIN, ERA, MATS and METR
+- **The UN**
+
+Then it looks closely at what the US and China each want to achieve beyond their borders, through their own key documents: China's Five-Year Plan, the US AI Action Plan, and the history of US corporate regulation. It closes by asking where middle powers like the EU fit in between. Week 4 and the final essay come back to that question.
+
+## Learning objectives
+
+By the end of this week, you can:
+
+- Name the main actors in AI governance and describe how they relate to each other
+- Compare the geopolitical ambitions and AI strategies of the US and China using their key documents
+- Explain where middle powers like the EU fit between the US and China
+
+## Readings
+
+{{< include _generated/week-2-required.md >}}
+
+### Optional
+
+{{< include _generated/week-2-optional.md >}}
+
+## Discussion: the US, China, and where middle powers fit
+
+The [discussion session](discussions.qmd#week-2) asks whether these actors can cooperate at all, and whether the US and Chinese plans match what each country has actually done since July 2025.
+
+{{< include _generated/week-2-discussion.md >}}
+
+::: {.callout-tip appearance="simple"}
+[← Week 1](week-1.qmd) · **Next:** [Week 3 · Tools of the policymaker →](week-3.qmd)
+:::

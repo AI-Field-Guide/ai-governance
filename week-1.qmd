@@ -1,0 +1,43 @@
+---
+title: "Week 1 · Why AI governance"
+subtitle: "Introduction to AI governance and AI safety"
+---
+
+::: {.week-meta}
+<span>📅 Lecture: Wed 18 Nov 2026</span><span>💬 Discussion: Tue 24 Nov 2026</span><span>⏱ Core reading ~40 min</span>
+:::
+
+## Overview
+
+This week introduces AI governance: what it is, how it differs from technical AI safety, and why it matters now. Then it covers the main risks governance has to address: **misuse**, **loss of control**, and **concentration of power**. That gives you the vocabulary for the rest of the module. Next week turns to the actors who shape AI governance.
+
+## Learning objectives
+
+By the end of this week, you can:
+
+- Explain what AI governance is and how it differs from technical AI safety
+- Explain why AI governance matters now
+- Describe the main risks AI governance has to address: misuse, loss of control, and concentration of power
+
+## Readings
+
+{{< include _generated/week-1-required.md >}}
+
+### Optional
+
+{{< include _generated/week-1-optional.md >}}
+
+## Assignment
+
+- Browse a few articles on [ChinaTalk](https://www.chinatalk.media) to prepare for week 2.
+- Draft your own **Future Action Plan**: what should governments do about AI in the next few years? Write it yourself, without AI tools.
+
+## Discussion: governance or technical safety, and why now?
+
+The [discussion session](discussions.qmd#week-1) asks how governance and technical safety depend on each other, and whether the public can see enough inside AI labs to judge the risks.
+
+{{< include _generated/week-1-discussion.md >}}
+
+::: {.callout-tip appearance="simple"}
+**Next:** [Week 2 · AI geopolitics →](week-2.qmd)
+:::

@@ -1,0 +1,8 @@
+---
+title: "All readings"
+subtitle: "Every reading in one place · ⭐ = essential"
+---
+
+Each reading links to the **source** and to an **archived copy** on the Internet Archive. If a source link stops working, use the archived one.
+
+{{< include _generated/all.md >}}

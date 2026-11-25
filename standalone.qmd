@@ -1,0 +1,38 @@
+---
+title: "Standalone sessions"
+subtitle: "One current development per session, no lectures needed"
+---
+
+These sessions sit alongside the module but stand on their own. Each one takes one current development in AI safety and governance.
+
+## AI and DNA {#dna}
+
+**Where do we draw the line between innovation and hazard?**
+
+Open-weight biological models now let researchers chat directly with genomic sequences in ordinary language, so the barrier to interacting with biology has nearly vanished. When tools like these move from research labs into widespread use, where do we draw the line between innovation and hazard?
+
+If health, genetics or biological traits can be modelled and optimised, how do we govern access to these capabilities without stifling progress? And when the same mechanism can engineer resilience or a vulnerability, how do we define where safety ends and risk begins, and who gets to decide?
+
+{{< include _generated/standalone-dna-discussion.md >}}
+
+## The PHP incident {#php}
+
+**When AI finds the bug first: who governs the window?**
+
+On 21 October 2026, PHP, the programming language behind roughly 70% of websites, released emergency fixes for two critical flaws, together called *PHP2Shell*. Researchers found them with frontier AI models. In the Netherlands, the NCSC, DigiD, MijnOverheid, the Tweede Kamer and parts of the higher-education network went offline as a precaution.
+
+OpenAI presents the case as AI finding the flaws before attackers did, and has proposed a five-stage process for coordinating such disclosures. Yet the embargo broke early, exploit attempts appeared days before disclosure, and the researcher who found the first flaw says he used publicly available models. A June 2026 consultation by the US National Academies expects AI to favour attackers in the near term. It also finds that defensive work such as deploying patches is the hardest part to speed up.
+
+**Questions**
+
+- Did AI help defenders or attackers more in the PHP incident? How would we know?
+- Should a private AI lab coordinate a global security response and decide who hears first? If not, who should?
+- Were the Dutch precautionary shutdowns, from DigiD to the Tweede Kamer website, proportionate?
+- Should access to the most capable cyber models be restricted, and who should decide who gets it?
+- The National Academies find that deploying patches is the hardest part of defence to speed up. What would help the Netherlands patch faster?
+
+**Readings** (~1.5 h total; the ⭐ items take about 1 hour)
+
+{{< include _generated/standalone-php-discussion.md >}}
+
+**Reflection (~15 min):** note whether you think AI helped defenders or attackers more, one stage of OpenAI's five-stage process you'd rather give to a public body than a company, and one National Academies finding that the PHP incident confirms or contradicts.

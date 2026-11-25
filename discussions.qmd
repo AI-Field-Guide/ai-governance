@@ -1,0 +1,94 @@
+---
+title: "Discussion series"
+subtitle: "Four sessions, one after each lecture"
+---
+
+Each session builds on the lecture of the week before, but stands on its own. A session is 90 minutes of small-group and plenary discussion: no presentations, no wrong questions. You can run these with a study group, too. Use the questions below and the ⭐ readings.
+
+**Preparing:** set aside about 2 hours per session, ideally over a few evenings. Already did the lecture readings? Skip Part 1. Short on time? The ⭐ items (about 1.5 hours) are the essentials.
+
+### Discussion norms
+
+1. No question or comment is stupid. Speak freely and respectfully.
+2. Contributions are encouraged from everyone.
+3. Participants are a team, working together to understand the material.
+4. Think critically, and raise objections or concerns as they come up.
+5. Be intellectually humble, and willing to revise your views based on new evidence.
+6. Look for information and perspectives that challenge your assumptions.
+7. Finish the readings before the session.
+
+## Week 1 · Why AI governance matters {#week-1}
+
+**Governance or technical safety, and why now?** The lecture introduced the main risks: misuse, loss of control and concentration of power. This session asks how governance and technical safety depend on each other. Which rules only work if a technical tool exists to check them, such as evaluations, interpretability or monitoring? What can governance add that technical safety cannot?
+
+**Questions**
+
+- Which risk worries you most: misuse, loss of control or concentration of power?
+- If the technical safety problem were solved tomorrow, what would governance still need to do?
+- How does a governance rule become a technical requirement? What would a lab have to measure or build to show it complies, and does that tool exist yet?
+- Should outsiders be able to look inside frontier AI labs? If so, who, and with what powers?
+- Does this change how seriously you take AI risk? (Either answer is welcome.)
+
+**Readings:** Part 1 is the [week 1 lecture readings](week-1.qmd#readings). Part 2, the academic lens:
+
+{{< include _generated/week-1-discussion.md >}}
+
+**Reflection (~15 min):** note one thing that surprised you, one point where Bengio et al. and the lecture readings seem to disagree, and one governance measure in Bengio et al. that only works if a technical tool exists to check it.
+
+## Week 2 · Who shapes AI governance {#week-2}
+
+**The US, China, and where middle powers like the Netherlands fit.** Roberts, Hine, Taddeo and Floridi argue that one new global AI body is unrealistic, given AI's central role in great-power competition, weak international institutions and disagreement over priorities. They suggest strengthening the existing network of institutions instead. Test that argument against the US and Chinese plans themselves. Then compare the plans with what each country has actually done since July 2025.
+
+**Questions**
+
+- Are the US and Chinese plans governance documents, or competition strategies?
+- Do the plans match what the US and China have actually done since they were published? Where would you look to find out?
+- Does the world need an "IAEA for AI", or is that unrealistic?
+- What leverage does a middle power like the Netherlands actually have?
+- What would have to change for the US and China to cooperate on AI safety?
+
+**Readings:** Part 1 is the [week 2 lecture readings](week-2.qmd#readings). Part 2, the academic lens:
+
+{{< include _generated/week-2-discussion.md >}}
+
+Also: *Middle Powers Should Invest in AI Verification* (~10 min, in the week 2 optional list).
+
+**Reflection (~15 min):** note one sentence from either plan that surprised you, and one thing that has happened since that matches or contradicts it (a news report, a policy decision or an export licence is enough). Then say whether you agree with Roberts et al. that a single new global AI body is unrealistic.
+
+## Week 3 · What policymakers act on {#week-3}
+
+**Evidence or predictions: incidents, system cards and scenarios.** Guha et al. (2024) assess four common proposals for AI regulation: disclosure, registration, licensing and auditing. They find shared technical and institutional problems, such as unclear standards, limited government expertise and the difficulty of keeping auditors independent.
+
+**Questions**
+
+- Should rules wait for incidents, or act on predictions?
+- What did the system card tell you, and what did you want to know but couldn't find?
+- Who should check what AI labs disclose?
+- Of disclosure, registration, licensing and auditing, which would you introduce first, and why?
+- If these tools can't work yet, what other information would policymakers need, and who could provide it?
+
+**Readings:** Part 1 is the [week 3 lecture readings](week-3.qmd#readings). Part 2, the academic lens:
+
+{{< include _generated/week-3-discussion.md >}}
+
+**Reflection (~15 min):** note one thing the system card disclosed, one thing you wanted to know but couldn't find, and who you think should check it.
+
+## Week 4 · Europe and the Netherlands {#week-4}
+
+**Is Europe's answer good enough?** Novelli et al. analyse the AI Office, AI Board, Scientific Panel and national authorities, and propose ways to strengthen them. Their paper predates the Code of Practice and the Digital Omnibus, so also ask what has changed since. As this is the last session, end by looking back over the four weeks.
+
+**Questions**
+
+- What does the AI Act leave out? Should an AI model that never leaves the lab be regulated?
+- Is the AI Office strong enough to supervise the world's most powerful AI companies?
+- Is a voluntary code of practice real regulation?
+- Does the Netherlands need its own AI safety institute?
+- Looking back over the four weeks: has your view on how worried to be changed?
+
+**Readings:** Part 1 is the [week 4 lecture readings](week-4.qmd#readings). Part 2, the academic lens:
+
+{{< include _generated/week-4-discussion.md >}}
+
+Also: *Kamerbrief over toezicht op de AI-verordening* (~15 min, in the week 4 optional list).
+
+**Reflection (~15 min):** note one thing Article 2 leaves out that surprised you, and one sentence on where the EU's strengths lie. It's a good start for the [final essay](essay.qmd).

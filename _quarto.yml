@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render: python3 scripts/build_readings.py
+
+website:
+  title: "AI Governance"
+  site-url: https://ai-field-guide.github.io/ai-governance/
+  description: "A four-week module on AI governance, with a focus on Europe and the Netherlands. Part of the AI Field Guide."
+  repo-url: https://github.com/AI-Field-Guide/ai-governance
+  repo-actions: [edit, issue]
+  page-navigation: true
+  back-to-top-navigation: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    background: primary
+    left:
+      - text: "← AI Field Guide"
+        href: https://ai-field-guide.github.io/
+    right:
+      - icon: github
+        href: https://github.com/AI-Field-Guide/ai-governance
+  sidebar:
+    style: docked
+    contents:
+      - text: "Start here"
+        href: index.qmd
+      - section: "Lectures"
+        contents:
+          - text: "1 · Why AI governance"
+            href: week-1.qmd
+          - text: "2 · AI geopolitics"
+            href: week-2.qmd
+          - text: "3 · Tools of the policymaker"
+            href: week-3.qmd
+          - text: "4 · Europe & the Netherlands"
+            href: week-4.qmd
+      - section: "Discussions"
+        contents:
+          - text: "Discussion series"
+            href: discussions.qmd
+          - text: "Standalone sessions"
+            href: standalone.qmd
+      - text: "Final essay"
+        href: essay.qmd
+      - text: "All readings"
+        href: readings.qmd
+      - text: "About & sources"
+        href: about.qmd
+  page-footer:
+    left: "AI Field Guide · AI Governance module"
+    right: "Independent study guide · [Source on GitHub](https://github.com/AI-Field-Guide/ai-governance)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [darkly, styles.scss]
+    toc: true
+    toc-title: "On this page"
+    link-external-newwindow: true

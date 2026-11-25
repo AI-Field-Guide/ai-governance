@@ -1,0 +1,295 @@
+# Single source of truth for every reading in the module.
+# Run `python3 scripts/build_readings.py` (CI does this automatically) to regenerate
+# the reading tables in _generated/.
+#
+# Fields:
+#   section: week-1..week-4 | standalone-dna | standalone-php
+#   kind:    required | optional | discussion
+#   core:    true = ⭐ (essential)
+#   title, url, minutes, part (what to read), archived (url override, optional)
+
+- section: week-1
+  kind: required
+  core: true
+  title: "International AI Safety Report 2026, Extended Summary for Policymakers"
+  part: "Chapter 2 (risks)"
+  minutes: 25
+  url: https://internationalaisafetyreport.org/sites/default/files/2026-02/ai-safety-report-2026-extended-summary-for-policymakers.pdf
+- section: week-1
+  kind: required
+  core: true
+  title: "METR, A proposal for better informing the public about loss-of-control risks from frontier AI development"
+  minutes: 15
+  url: https://metr.substack.com/p/2026-10-14-better-informing-the-public-about-loss-of-control-risks
+- section: week-1
+  kind: optional
+  title: "Forethought, AI-Enabled Coups: How a Small Group Could Use AI to Seize Power"
+  part: "Summary (full report ~90 min)"
+  minutes: 15
+  url: https://www.forethought.org/research/ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power
+- section: week-1
+  kind: optional
+  title: "Hendrycks, Mazeika & Woodside, An Overview of Catastrophic AI Risks"
+  part: "Introduction and summary"
+  minutes: 20
+  url: https://arxiv.org/abs/2306.12001
+- section: week-1
+  kind: optional
+  title: "Dafoe, AI Governance: Overview and Theoretical Lenses (Oxford Handbook of AI Governance)"
+  minutes: 60
+  url: https://docs.google.com/document/d/18urWknXlA3EJ8NcJdxhU12crlVMQTty_DJ0XEC1Y3LM/edit?tab=t.0
+- section: week-1
+  kind: optional
+  title: "METR, Independent Assessment of AI R&D Acceleration at Anthropic in October 2026"
+  url: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
+- section: week-1
+  kind: discussion
+  core: true
+  title: "Bengio et al. (2024), Managing extreme AI risks amid rapid progress, Science"
+  part: "Whole paper (it is short)"
+  minutes: 25
+  url: https://arxiv.org/abs/2310.17688
+
+- section: week-2
+  kind: required
+  core: true
+  title: "America's AI Action Plan"
+  part: "Introduction and Pillar III"
+  minutes: 20
+  url: https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf
+- section: week-2
+  kind: required
+  core: true
+  title: "Global AI Governance Action Plan (Ministry of Foreign Affairs of the PRC)"
+  minutes: 15
+  url: https://www.mfa.gov.cn/eng/xw/zyxw/202507/t20250729_11679232.html
+- section: week-2
+  kind: required
+  core: true
+  title: "Carnegie Endowment, How China Views AI Risks and What to Do About Them"
+  minutes: 20
+  url: https://carnegieendowment.org/russia-eurasia/research/2025/10/how-china-views-ai-risks-and-what-to-do-about-them
+- section: week-2
+  kind: optional
+  title: "Concordia AI, AI Safety in the 15th Five-Year Plan"
+  minutes: 15
+  url: https://aisafetychina.substack.com/p/ai-safety-in-the-15th-five-year-plan
+- section: week-2
+  kind: optional
+  title: "Stanford DigiChina, Forum: Technology in China's 15th Five-Year Plan"
+  minutes: 20
+  url: https://digichina.stanford.edu/work/forum-technology-in-chinas-15th-five-year-plan/
+- section: week-2
+  kind: optional
+  title: "Proposal of the Central Committee of the CCP on Drawing Up the 15th Five-Year Plan (CSET translation)"
+  part: "Sections on AI and technology"
+  minutes: 20
+  url: https://cset.georgetown.edu/publication/china-fourth-plenum-proposal-2026/
+- section: week-2
+  kind: optional
+  title: "Middle Powers and Transformative AI"
+  minutes: 15
+  url: https://middlepowers.ai/
+- section: week-2
+  kind: optional
+  title: "Middle Powers Should Invest in AI Verification"
+  minutes: 10
+  url: https://newsletter.aipolicybulletin.org/p/middle-powers-should-invest-in-ai
+- section: week-2
+  kind: optional
+  title: "United Nations, Global Dialogue on AI Governance and Independent International Scientific Panel on AI"
+  minutes: 5
+  url: https://www.un.org/sg/en/node/271213
+- section: week-2
+  kind: discussion
+  core: true
+  title: "Roberts, Hine, Taddeo & Floridi (2024), Global AI governance: barriers and pathways forward, International Affairs"
+  part: "Introduction, barriers to cooperation, conclusion"
+  minutes: 40
+  url: https://doi.org/10.1093/ia/iiae073
+
+- section: week-3
+  kind: required
+  core: true
+  title: "OpenAI, Hugging Face model evaluation security incident"
+  minutes: 10
+  url: https://openai.com/index/hugging-face-model-evaluation-security-incident/
+- section: week-3
+  kind: required
+  core: true
+  title: "GPT-6 Astra System Card"
+  part: "Summary and cyber section"
+  minutes: 15
+  url: https://deploymentsafety.openai.com/gpt-6-astra/gpt-6-astra.pdf
+- section: week-3
+  kind: required
+  title: "AI 2040: Plan A"
+  part: "Summary"
+  minutes: 15
+  url: https://www.ai-2040.com/
+- section: week-3
+  kind: required
+  core: true
+  title: "Bommasani et al., Advancing Science- and Evidence-Based AI Policy"
+  minutes: 15
+  url: https://law.stanford.edu/publications/advancing-science-and-evidence-based-ai-policy/
+- section: week-3
+  kind: optional
+  title: "Casper, Krueger & Hadfield-Menell, Pitfalls of Evidence-Based AI Policy"
+  minutes: 30
+  url: https://arxiv.org/abs/2502.09618v6
+- section: week-3
+  kind: optional
+  title: "AI Incident Database, incident 1628"
+  minutes: 5
+  url: https://incidentdatabase.ai/cite/1628/
+- section: week-3
+  kind: optional
+  title: "Stanford CRFM, The 2025 Foundation Model Transparency Index"
+  part: "Introduction and key findings"
+  minutes: 15
+  url: https://crfm.stanford.edu/fmti/December-2025/paper.pdf
+- section: week-3
+  kind: optional
+  title: "METR, Measuring AI Ability to Complete Long Tasks"
+  part: "Abstract and introduction"
+  minutes: 15
+  url: https://arxiv.org/html/2503.14499v3
+- section: week-3
+  kind: optional
+  title: "AI 2027"
+  part: "First part, up to mid-2027 (full scenario ~90 min)"
+  minutes: 20
+  url: https://ai-2027.com/
+- section: week-3
+  kind: optional
+  title: "Claude Mythos Preview System Card"
+  part: "Summary"
+  minutes: 15
+  url: https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf
+- section: week-3
+  kind: optional
+  title: "Europe 2031"
+  minutes: 20
+  url: https://europe2031.ai/
+- section: week-3
+  kind: discussion
+  core: true
+  title: "Guha et al. (2024), AI Regulation Has Its Own Alignment Problem, George Washington Law Review"
+  part: "Introduction (pp. 1475–1480) and Part II on disclosure (pp. 1495–1507)"
+  minutes: 35
+  url: https://gwlr.org/wp-content/uploads/2024/12/92-Geo.-Wash.-L.-Rev.-1473.pdf
+- section: week-3
+  kind: discussion
+  title: "Stanford HAI policy brief: AI Regulation's Alignment Problem (short version of Guha et al.)"
+  minutes: 10
+  url: https://hai.stanford.edu/policy/policy-brief-ai-regulatory-alignment-problem
+
+- section: week-4
+  kind: required
+  core: true
+  title: "High-level summary of the AI Act"
+  minutes: 20
+  url: https://artificialintelligenceact.eu/high-level-summary/
+- section: week-4
+  kind: required
+  core: true
+  title: "AI Act, Article 2: Scope"
+  minutes: 5
+  url: https://artificialintelligenceact.eu/article/2/
+- section: week-4
+  kind: required
+  title: "European Commission, European AI Office"
+  minutes: 10
+  url: https://digital-strategy.ec.europa.eu/en/policies/ai-office
+- section: week-4
+  kind: required
+  title: "European Commission, Contents of the General-Purpose AI Code of Practice"
+  minutes: 15
+  url: https://digital-strategy.ec.europa.eu/policies/contents-code-gpai
+- section: week-4
+  kind: optional
+  title: "Gibson Dunn, EU AI Act Omnibus Agreement: Postponed High-Risk Deadlines and Other Key Changes"
+  minutes: 15
+  url: https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/
+- section: week-4
+  kind: optional
+  title: "Regulation (EU) 2026/1744 (Digital Omnibus on AI)"
+  part: "Recitals and key articles"
+  minutes: 30
+  url: https://eur-lex.europa.eu/eli/reg/2026/1744/oj
+- section: week-4
+  kind: optional
+  title: "Kamerbrief over toezicht op de AI-verordening, April 2026 (in Dutch)"
+  minutes: 15
+  url: https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z08421&did=2026D18926
+- section: week-4
+  kind: optional
+  title: "AP, AI & Algorithmic Risks Report Netherlands (RAN), March 2026"
+  part: "Summary page"
+  minutes: 20
+  url: https://www.aiactblog.nl/en/richtsnoeren/rapportage-ai-algoritmes-nederland-ran-maart-2026
+- section: week-4
+  kind: optional
+  title: "Draghi, The Future of European Competitiveness"
+  part: "Part A, sections on AI and digital"
+  minutes: 30
+  url: https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en
+- section: week-4
+  kind: discussion
+  core: true
+  title: "Novelli et al. (2025), A Robust Governance for the AI Act: AI Office, AI Board, Scientific Panel, and National Authorities, European Journal of Risk Regulation"
+  part: "Introduction, AI Office, national authorities, conclusion"
+  minutes: 35
+  url: https://doi.org/10.1017/err.2024.57
+
+- section: standalone-dna
+  kind: discussion
+  title: "Hugging Face, Carbon-X release"
+  url: https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release
+
+- section: standalone-php
+  kind: discussion
+  core: true
+  title: "AP, Websites scramble to fix software flaw that could put much of internet at risk"
+  minutes: 10
+  url: https://www.adn.com/nation-world/2026/10/21/websites-scramble-to-fix-software-flaw-that-could-put-much-of-internet-at-risk/
+- section: standalone-php
+  kind: discussion
+  core: true
+  title: "NL Times, Some important Dutch websites still offline after PHP issues"
+  minutes: 5
+  url: https://nltimes.nl/node/92579
+- section: standalone-php
+  kind: discussion
+  title: "BCS, Analysis: the global PHP incident"
+  minutes: 10
+  url: https://www.bcs.org/articles-opinion-and-research/bcs-analysis-the-global-php-incident-1/
+- section: standalone-php
+  kind: discussion
+  title: "AI Weekly, PHP2Shell roundup (credit dispute, broken embargo, early exploitation)"
+  minutes: 10
+  url: https://aiweekly.co/issues/php2shell-millions-of-attacks-15m-servers-unpatched-on-day
+- section: standalone-php
+  kind: discussion
+  core: true
+  title: "OpenAI, Coordinated disclosure of critical vulnerabilities (the five-stage process)"
+  minutes: 15
+  url: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/
+- section: standalone-php
+  kind: discussion
+  title: "PPC Land, OpenAI says GPT-5.6 Sol found a PHP flaw before attackers did (short summary of the above)"
+  minutes: 5
+  url: https://ppc.land/openai-says-gpt-5-6-sol-found-a-php-flaw-before-attackers-did/
+- section: standalone-php
+  kind: discussion
+  core: true
+  title: "National Academies (2026), Implications of AI for Cybersecurity: A Rapid Expert Consultation"
+  part: "Chapter: AI and the Changing Cybersecurity Landscape (pp. 4–7)"
+  minutes: 20
+  url: https://www.nationalacademies.org/read/29493/chapter/3
+- section: standalone-php
+  kind: discussion
+  title: "Shevlane & Dafoe (2020), The Offense-Defense Balance of Scientific Knowledge"
+  minutes: 30
+  url: https://arxiv.org/abs/2001.00463

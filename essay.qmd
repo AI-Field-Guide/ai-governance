@@ -1,0 +1,37 @@
+---
+title: "Final essay"
+subtitle: "A short research proposal on EU/NL AI governance"
+---
+
+The module ends with a short **research proposal** on an open question in European or Dutch AI governance. In the live course, attending at least 3 of the 4 lectures and submitting this essay earns the certificate. After the course, a research challenge follows, where mentors help participants develop their own ideas further.
+
+## Starter kit
+
+Begin with the week 4 core readings, then go deeper with these:
+
+- [Week 4 core readings](week-4.qmd#readings): AI Act summary, Article 2 (scope), AI Office and Code of Practice
+- *Kamerbrief over toezicht op de AI-verordening* (April 2026): how the Netherlands organises oversight
+- *AP, AI & Algorithmic Risks Report Netherlands (RAN)* (March 2026)
+- *Regulation (EU) 2026/1744 (Digital Omnibus on AI)*: what changed in the AI Act
+- *Novelli et al. (2025)*: governance of the AI Act's institutions
+
+All of these are linked, with archived copies, on the [week 4 page](week-4.qmd) and in [All readings](readings.qmd).
+
+## Finding a question
+
+Good prompts from the four weeks:
+
+- What does the AI Act **leave out** (Article 2), and should it?
+- Is the **AI Office** strong enough to supervise frontier labs? What would make it stronger?
+- Is a **voluntary code of practice** real regulation?
+- Does the Netherlands need its **own AI safety institute**?
+- Where do the **EU's strengths** lie as a middle power between the US and China?
+- Should rules **wait for incidents** or act on predictions, and how does the AI Act choose?
+
+## A simple structure
+
+1. **Question:** one open, answerable question
+2. **Why it matters:** for the EU/NL, and now
+3. **What's known:** 3–5 key sources from the readings
+4. **Gap:** what's unclear or contested
+5. **Approach:** how you'd investigate it (documents, interviews, comparison, case study)

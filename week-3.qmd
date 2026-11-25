@@ -1,0 +1,47 @@
+---
+title: "Week 3 · Tools of the policymaker"
+subtitle: "Evidence or predictions: incidents, system cards and scenarios"
+---
+
+::: {.week-meta}
+<span>📅 Lecture: Wed 2 Dec 2026</span><span>💬 Discussion: Tue 8 Dec 2026</span><span>⏱ Core reading ~55 min</span>
+:::
+
+## Overview
+
+This week looks at what policymakers base their decisions on, along a simple timeline:
+
+- **Evidence from the past:** incidents that already happened, such as the Hugging Face incident
+- **Information from the present:** what labs disclose about their models in system cards
+- **Predictions of the future:** scenarios such as AI 2040 and Europe 2031
+
+Then it discusses the key tension behind this: should we regulate based on evidence, or on predictions? Next week shows how Europe answered that question in the EU AI Act.
+
+## Learning objectives
+
+By the end of this week, you can:
+
+- Explain why many rules are written after incidents, using the Hugging Face incident as an example
+- Describe what labs disclose in system cards, and what they leave out
+- Explain how scenarios are used to anticipate risks that have not happened yet
+- Explain the tension between regulating based on evidence and regulating based on predictions
+
+## Readings
+
+{{< include _generated/week-3-required.md >}}
+
+### Optional
+
+{{< include _generated/week-3-optional.md >}}
+
+Also optional: Hugging Face's own post-mortem of the July 2026 incident, linked from OpenAI's post above (~10 min).
+
+## Discussion: what policymakers act on
+
+The [discussion session](discussions.qmd#week-3) asks whether disclosure, registration, licensing and auditing can actually work, and what other information policymakers would need.
+
+{{< include _generated/week-3-discussion.md >}}
+
+::: {.callout-tip appearance="simple"}
+[← Week 2](week-2.qmd) · **Next:** [Week 4 · Europe & the Netherlands →](week-4.qmd)
+:::

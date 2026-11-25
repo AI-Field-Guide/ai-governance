@@ -1,0 +1,40 @@
+---
+title: "AI Governance"
+subtitle: "A four-week introduction, with a focus on Europe and the Netherlands"
+toc: false
+---
+
+Most AI governance courses look mainly at the US–China race. This module goes further. It looks at what the US and China want, how each sees the world, and where **middle powers like the EU and the Netherlands** fit in between. For every topic, you go to the **primary sources**: laws, official strategies, and documents from governments and AI labs, so you can check things for yourself.
+
+You don't need a technical or legal background.
+
+::: {.week-cards}
+<a href="week-1.html"><div class="num">Week 1</div><div class="title">Why AI governance</div><div class="date">Risks, safety vs governance</div></a>
+<a href="week-2.html"><div class="num">Week 2</div><div class="title">AI geopolitics</div><div class="date">US, China & middle powers</div></a>
+<a href="week-3.html"><div class="num">Week 3</div><div class="title">Tools of the policymaker</div><div class="date">Incidents, system cards, scenarios</div></a>
+<a href="week-4.html"><div class="num">Week 4</div><div class="title">Europe & the Netherlands</div><div class="date">EU AI Act, AI Office, Dutch oversight</div></a>
+:::
+
+## How to use this module
+
+1. **Go week by week.** Each week builds on the one before: why governance matters → who the players are → what policymakers act on → how Europe answered.
+2. **Start with the ⭐ core readings.** They take about an hour a week. Everything else is optional depth.
+3. **Join or recreate the discussion.** Every week has a [discussion session](discussions.qmd) with questions and an extra academic reading.
+4. **Finish with the [final essay](essay.qmd):** a short research proposal on an open question in EU/NL AI governance.
+
+## Workload
+
+| Activity | Time per week |
+|---|---|
+| Lecture (or self-study of the week page) | 1.5 h |
+| Core readings | ~1 h |
+| Project / essay work | 1–2 h |
+| Discussion group (optional, recommended) | 1.5 h |
+
+## Every link has a backup
+
+Each reading links to its **original source**. Next to it is an **archived copy** on the [Internet Archive](https://web.archive.org/), so the module keeps working if a page moves or disappears. See [About & sources](about.qmd).
+
+::: {.callout-note appearance="simple"}
+This module follows the first run of the **SAIN Utrecht AI Governance course** (November–December 2026). It's an independent study guide, not an official SAIN publication. For live sessions, see [SAIN Utrecht events](https://luma.com/sain-utrecht-events).
+:::

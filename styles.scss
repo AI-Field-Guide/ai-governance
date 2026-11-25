@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+$primary: #1f4e5f;
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+.reading-table table { font-size: 0.95rem; }
+.reading-table td:nth-child(2) { white-space: nowrap; }
+.reading-table td:nth-child(3) { white-space: nowrap; }
+.core { font-weight: 600; }
+.week-meta {
+  display: flex; flex-wrap: wrap; gap: .5rem 1.25rem;
+  font-size: .95rem; opacity: .85; margin-bottom: 1rem;
+}
+.week-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1rem 0 2rem; }
+.week-cards a {
+  display: block; padding: 1rem 1.1rem; border-radius: .6rem; text-decoration: none;
+  border: 1px solid rgba(127,127,127,.3); color: inherit;
+}
+.week-cards a:hover { border-color: $primary; }
+.week-cards .num { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; opacity: .7; }
+.week-cards .title { font-weight: 600; font-size: 1.05rem; margin: .2rem 0; }
+.week-cards .date { font-size: .85rem; opacity: .75; }

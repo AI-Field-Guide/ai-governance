@@ -1,0 +1,19 @@
+---
+title: "About & sources"
+---
+
+## About this module
+
+**AI Governance** is one module of the [AI Field Guide](https://ai-field-guide.github.io/), an open programme for learning about AI, where safety and governance are one topic among several.
+
+The module follows the structure and reading list of the first run of the **SAIN Utrecht AI Governance course** (November–December 2026). It's an independent study guide, not an official publication of SAIN (Safe AI Netherlands). For live lectures and discussion groups, see [SAIN Utrecht events](https://luma.com/sain-utrecht-events).
+
+## How readings are preserved
+
+- **Source links** always point to the original publisher.
+- **Archived links** point to the [Internet Archive's Wayback Machine](https://web.archive.org/). If a page has never been archived, the Wayback Machine offers to save it.
+- **Offline backups** of every reading the maintainers could download are kept in a private archive repository, to preserve the material if sources disappear. They're not republished here, out of respect for publishers' copyright.
+
+## Contributing
+
+Found a broken link, or have a better reading? [Open an issue](https://github.com/AI-Field-Guide/ai-governance/issues) or edit `data/readings.yml` and send a pull request. All reading tables are generated from that one file.

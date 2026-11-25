@@ -1,0 +1,40 @@
+---
+title: "Week 4 · Europe & the Netherlands"
+subtitle: "Governance in Europe and in the Netherlands"
+---
+
+::: {.week-meta}
+<span>📅 Lecture: Wed 9 Dec 2026</span><span>💬 Discussion: Tue 15 Dec 2026</span><span>⏱ Core reading ~50 min</span>
+:::
+
+## Overview
+
+The final week brings everything together in Europe and the Netherlands. It covers the **EU AI Act**, its risk-based approach, and what the Act does not cover. It looks at who makes and enforces the rules (the European Parliament and the **EU AI Office**) and at the **GPAI Code of Practice**. Then it turns to the Dutch organisations that oversee AI models, and ends by discussing where the EU's strengths lie, as a starting point for the [final essay](essay.qmd).
+
+## Learning objectives
+
+By the end of this week, you can:
+
+- Explain the risk-based approach of the EU AI Act
+- Explain what the EU AI Act does not cover
+- Describe how the EU AI Office is structured and what the GPAI Code of Practice asks of model providers
+- Name the Dutch organisations responsible for overseeing AI models
+- Identify open research questions on EU AI law
+
+## Readings
+
+{{< include _generated/week-4-required.md >}}
+
+### Optional
+
+{{< include _generated/week-4-optional.md >}}
+
+## Discussion: is Europe's answer good enough?
+
+The [discussion session](discussions.qmd#week-4) asks whether the institutions behind the rules can enforce them, and looks back over the four weeks.
+
+{{< include _generated/week-4-discussion.md >}}
+
+::: {.callout-tip appearance="simple"}
+[← Week 3](week-3.qmd) · **Next:** [Final essay →](essay.qmd)
+:::
